@@ -1,0 +1,8 @@
+sentence = input()
+character = sentence[0]
+phrase = sentence[1:]
+counter = phrase.count(character)
+if(counter < 1 or counter > 1):
+    print(counter, character + "'s")
+else:
+    print(counter, character)
